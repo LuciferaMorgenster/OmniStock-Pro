@@ -1,0 +1,6 @@
+{
+  "name": "OmniStock Pro",
+  "description": "Enterprise multilingual inventory management platform with multi-warehouse tracking, unified suite integrations for TalentPulse-HRIS, Kopilot Projects, BoekhoudGemak, and NexusCRM Suite, and dynamic SEO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
