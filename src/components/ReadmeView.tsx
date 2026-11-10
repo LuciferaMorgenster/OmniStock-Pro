@@ -58,6 +58,34 @@ export const ReadmeView: React.FC = () => {
         </div>
       </div>
 
+      {/* Live Production Version Banner */}
+      <div className="p-5 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2 mb-1">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span className="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
+              Live Production Instance & PWA
+            </span>
+          </div>
+          <h4 className="text-base font-bold text-slate-900 dark:text-white font-mono">
+            omnistock-pro.lucifera.eu
+          </h4>
+          <p className="text-xs text-slate-600 dark:text-slate-300 mt-1">
+            Access the live deployed instance or install directly to home screen / desktop with offline cache.
+          </p>
+        </div>
+
+        <a
+          href="https://omnistock-pro.lucifera.eu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2.5 rounded-lg text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 flex items-center gap-2 transition-colors cursor-pointer self-start sm:self-auto shrink-0 shadow-sm"
+        >
+          <span>Open omnistock-pro.lucifera.eu</span>
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+      </div>
+
       {/* PayPal Patronage Notice */}
       <div className="p-5 rounded-xl bg-gradient-to-r from-rose-50/60 to-indigo-50/60 dark:from-slate-800 dark:to-slate-900 border border-rose-200/60 dark:border-slate-700 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>

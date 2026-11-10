@@ -10,6 +10,7 @@ import {
   RefreshCw,
   FolderGit2,
 } from 'lucide-react';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   onOpenAddItem: () => void;
@@ -175,6 +176,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenAddItem }) => {
               <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />
               <span className="hidden sm:inline">{t.nav.sponsor}</span>
             </button>
+
+            {/* PWA Install Button */}
+            <PWAInstallButton />
 
             {/* Primary Action Button */}
             <button

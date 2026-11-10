@@ -14,6 +14,7 @@ import { StockAdjustModal } from './components/StockAdjustModal';
 import { BarcodeModal } from './components/BarcodeModal';
 import { ItemDetailDrawer } from './components/ItemDetailDrawer';
 import { SponsorModal } from './components/SponsorModal';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { InventoryItem } from './types';
 import { translations } from './i18n/translations';
 import { Heart, Boxes } from 'lucide-react';
@@ -142,6 +143,7 @@ const AppContent: React.FC = () => {
       />
 
       <SponsorModal />
+      <OfflineIndicator />
     </div>
   );
 };
